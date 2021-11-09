@@ -1,6 +1,8 @@
 import './App.css';
+import './App.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navibar from './components/Navibar';
 
 
 function App() {
@@ -8,7 +10,7 @@ function App() {
     <div className="App">
       <header></header>
       <body>
-        <Navbar />
+        <Navibar />
       </body>
       <footer></footer>
     </div>
