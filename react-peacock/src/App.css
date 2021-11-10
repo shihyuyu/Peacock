@@ -1,0 +1,43 @@
+/*Logo and navigation bar*/
+.fixTop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);;
+    z-index: 1000;
+}
+.fixTop .logo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.fixTop nav{
+    padding: 0 20%;
+}
+.fixTop nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 6px 15px;
+    color: #fff !important;
+    border-radius: 15px;
+}
+.fixTop nav a:hover, 
+.fixTop nav a:active{
+    background-color: #fff;
+    color: #111 !important;
+}
+/*Logo and navigation bar end*/
+
+/*Main cover*/
+
+/*Main cover end*/
