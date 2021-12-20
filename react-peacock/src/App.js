@@ -2,19 +2,15 @@ import './App.css';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import Navibar from './components/Navibar';
-import MainCover from './components/MainCover';
+import Header from './components/Header';
+import CategoriesMenu from './components/CategoriesMenu'
 
 
 function App() {
   return (
     <div className="App">
-      <header></header>
-      <body>
-        <Navibar />
-        <MainCover />
-      </body>
-      <footer></footer>
+        <Header />
+        <CategoriesMenu />
     </div>
   );
 }
