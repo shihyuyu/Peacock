@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import Header from './components/Header';
 import CategoriesMenu from './components/CategoriesMenu'
+import LoginHomePage from './components/LoginHomePage';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
         <Header />
         <CategoriesMenu />
+        <LoginHomePage />
     </div>
   );
 }
