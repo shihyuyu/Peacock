@@ -1,4 +1,8 @@
 import React from 'react'
+import Carousel from 'react-bootstrap/Carousel'
+import gura from '../images/gura.png'
+import pekora from '../images/Pekora.png'
+import korone from '../images/korone.png'
 
 function LoginHomePage() {
     return (
@@ -14,11 +18,35 @@ function LoginHomePage() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-9 col-md-9 col-sm-12'></div>
+                    <div className='col-lg-9 col-md-9 col-sm-12'>
+                        <Carousel>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                src={gura}
+                                alt="First slide"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                src={pekora}
+                                alt="Second slide"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                src={korone}
+                                alt="Third slide"
+                                />
+                            </Carousel.Item>
+                        </Carousel>
+                    </div>
                 </div>
             </div>
         </div>
     )
 }
 
-export default LoginHomePage
+export default LoginHomePage;
