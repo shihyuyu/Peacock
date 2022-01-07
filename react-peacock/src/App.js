@@ -3,8 +3,10 @@ import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import Header from './components/Header';
-import CategoriesMenu from './components/CategoriesMenu'
+import CategoriesMenu from './components/CategoriesMenu';
 import LoginHomePage from './components/LoginHomePage';
+import PopularGigsSlide from './components/PopularGigsSlide';
+
 
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
         <Header />
         <CategoriesMenu />
         <LoginHomePage />
+        <PopularGigsSlide />
     </div>
   );
 }
