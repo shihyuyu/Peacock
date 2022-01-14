@@ -9,9 +9,9 @@ function PopularGigsSlide() {
         <div>
             <div className="popular-gigs-slides container">
                 <h4>Most popular Gigs</h4>
-                <Carousel interval={ null }>
+                <Carousel className="popular-carousel-slides" interval={ null }>
                     <Carousel.Item>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className="popular-carousel-card">
                             <Card.Img variant="top" src={small_ame} />
                             <Card.Body>
                                 <Card.Title>Small Ame</Card.Title>
@@ -23,7 +23,7 @@ function PopularGigsSlide() {
                         </Card>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className="popular-carousel-card">
                             <Card.Img variant="top" src={takodachi} />
                             <Card.Body>
                                 <Card.Title>Takodachi</Card.Title>
