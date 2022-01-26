@@ -179,18 +179,26 @@ form button a{
 /*Mid Banner end*/
 
 /*Footer*/
+<<<<<<< HEAD
 .site-footer{
     border-top: 1px solid #e4e5e7;
 }
 .footer-wrapper{
     padding: 64px 30px 24px 30px;
+=======
+.footer-wrapper {
+    padding: 30px;
+>>>>>>> efec9030105abd67906f43d5ea6998e53795f59f
 }
 .footer-wrapper .list-wrapper{
     width: 20%;
 }
+<<<<<<< HEAD
 .footer-wrapper .list-wrapper h5{
     padding-bottom: 16px;
 }
+=======
+>>>>>>> efec9030105abd67906f43d5ea6998e53795f59f
 .footer-wrapper h4{
     color: #404145;
 }
@@ -198,6 +206,7 @@ form button a{
     list-style: none;
     padding: 0;
 }
+<<<<<<< HEAD
 .footer-wrapper ul li{
     padding-bottom: 16px;
 }
@@ -205,10 +214,16 @@ form button a{
     text-decoration: none;
     color: #7a7d85;
     font-size: 18px;
+=======
+.footer-wrapper ul li a{
+    text-decoration: none;
+    color: #7a7d85;
+>>>>>>> efec9030105abd67906f43d5ea6998e53795f59f
 }
 .footer-wrapper ul li a:hover{
     text-decoration: underline;
 }
+<<<<<<< HEAD
 .bottom-wrapper {
     border-top: 1px solid #e4e5e7;
 }
@@ -244,4 +259,6 @@ form button a{
 .bottom-wrapper .bottom-right ul li svg:hover{
     color: rgb(97, 94, 94);
 }
+=======
+>>>>>>> efec9030105abd67906f43d5ea6998e53795f59f
 /*Footer end*/

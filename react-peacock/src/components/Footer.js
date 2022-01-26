@@ -1,15 +1,22 @@
 import React, { Component } from 'react'
+<<<<<<< HEAD
 import logo from '../images/Fiverr-Logo.png';
 import './Fontawesome'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 
+=======
+>>>>>>> efec9030105abd67906f43d5ea6998e53795f59f
 
 class Footer extends Component {
     render() {
         return (
             <div id="Footer">
+<<<<<<< HEAD
                 <footer class="site-footer">
+=======
+                <footer>
+>>>>>>> efec9030105abd67906f43d5ea6998e53795f59f
                     <div className='footer-wrapper container'>
                         <div className='row'>
                             <div className='categories list-wrapper col-3'>
@@ -54,6 +61,7 @@ class Footer extends Component {
                             </div>
                         </div>
                     </div>
+<<<<<<< HEAD
                     <div className='bottom-wrapper container'>
                         <div className='row'>
                             <div className='bottom-left col-lg-8 col-md-4 col-sm-12'>
@@ -70,6 +78,8 @@ class Footer extends Component {
                             </div>
                         </div>                        
                     </div>
+=======
+>>>>>>> efec9030105abd67906f43d5ea6998e53795f59f
                 </footer>
             </div>
         )
