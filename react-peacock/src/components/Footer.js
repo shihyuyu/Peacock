@@ -7,7 +7,7 @@ class Footer extends Component {
     render() {
         return (
             <div id="main-page-footer">
-                <footer class="site-footer">
+                <footer className='site-footer'>
                     <div className='footer-wrapper container'>
                         <div className='row'>
                             <div className='categories list-wrapper col-3'>
